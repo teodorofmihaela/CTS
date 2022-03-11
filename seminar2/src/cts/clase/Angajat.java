@@ -18,7 +18,6 @@ public class Angajat extends Aplicant {
         super();
     }
 
-
     @Override
     public String toString() {
         return "Angajat: " + "Ocupatie=" + ocupatie + ", salariu=" + salariu;

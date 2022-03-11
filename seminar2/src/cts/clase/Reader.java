@@ -13,7 +13,9 @@ public abstract class Reader {
             int nrProiecte = scanner.nextInt();
             String[] denumiriProiecte = new String[nrProiecte];
             for (int i = 0; i < nrProiecte; i++)
+            {
                 denumiriProiecte[i] = scanner.next();
+            }
            aplicant.setNume(nume);
            aplicant.setPrenume(prenume);
            aplicant.setVarsta(varsta);

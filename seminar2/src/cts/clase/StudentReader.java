@@ -12,7 +12,8 @@ public class StudentReader extends Reader {
     public List<Aplicant> readAplicanti(String file) {
 
         Scanner scanner = null;
-        try {
+        try
+        {
             scanner = new Scanner(new File(file));
         } catch (FileNotFoundException e) {
             e.printStackTrace();

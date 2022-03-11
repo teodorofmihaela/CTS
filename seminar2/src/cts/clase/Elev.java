@@ -17,7 +17,6 @@ public class Elev extends Aplicant {
         this.tutore = tutore;
     }
 
-
     @Override
     public String toString() {
         return "Elev: "+ super.toString()+ "Clasa=" + clasa + ", Tutore=" + tutore;

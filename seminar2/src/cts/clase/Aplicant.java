@@ -59,7 +59,6 @@ public abstract class Aplicant {
 
     }
 
-
     public void afisareSumaFinantata(int suma) {
         System.out.println("Aplicantul " + getNume() + " " + getPrenume() + " primeste" + suma + " Euro/zi in proiect.");
     }
