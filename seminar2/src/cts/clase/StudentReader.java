@@ -11,25 +11,25 @@ public class StudentReader extends Reader {
     @Override
     public List<Aplicant> readAplicanti(String file) {
 
-        Scanner input = null;
+        Scanner scanner = null;
         try {
-            input = new Scanner(new File(file));
+            scanner = new Scanner(new File(file));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        input.useDelimiter(",|\n");
-        List<Aplicant> aplicanti = new ArrayList<Aplicant>();
+        scanner.useDelimiter(",|\n");
+        List<Aplicant> aplicanti = new ArrayList<>();
 
-        while (input.hasNext()) {
+        while (scanner.hasNext()) {
            Student student=new Student();
-           readAplicant(input,student);
-            int an_studii = input.nextInt();
-            String facultate = (input.next()).toString();
+           readAplicant(scanner,student);
+            int an_studii = scanner.nextInt();
+            String facultate = (scanner.next());
             student.setAn_studii(an_studii);
             student.setFacultate(facultate);
             aplicanti.add(student);
         }
-        input.close();
+        scanner.close();
         return aplicanti;
     }
 }
