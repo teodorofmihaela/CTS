@@ -17,27 +17,27 @@ public class Autobuz {
         this.nrInmatriculare = "B104VVV";
     }
 
-    public void setModel(String model) {
+     void setModel(String model) {
         this.model = model;
     }
 
-    public void setNumeSofer(String numeSofer) {
+     void setNumeSofer(String numeSofer) {
         this.numeSofer = numeSofer;
     }
 
-    public void setOprireCapat(boolean oprireCapat) {
+     void setOprireCapat(boolean oprireCapat) {
         this.oprireCapat = oprireCapat;
     }
 
-    public void setDeschideUsi(boolean deschideUsi) {
+     void setDeschideUsi(boolean deschideUsi) {
         this.deschideUsi = deschideUsi;
     }
 
-    public void setTextrDerulat(String textrDerulat) {
+     void setTextrDerulat(String textrDerulat) {
         this.textrDerulat = textrDerulat;
     }
 
-    public void setNrInmatriculare(String nrInmatriculare) {
+     void setNrInmatriculare(String nrInmatriculare) {
         this.nrInmatriculare = nrInmatriculare;
     }
 
