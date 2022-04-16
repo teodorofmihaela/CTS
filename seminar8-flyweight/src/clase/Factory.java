@@ -17,7 +17,7 @@ public Linie getLinie(int nrLinie){
     }
         else {
             linie=new Linie(nrLinie,"prima statie","ultima statie");
-
+            mapLinie.put(nrLinie,linie);
         }
         return linie;
 }

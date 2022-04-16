@@ -5,7 +5,7 @@ public class Linie implements Flyweight{
         String primaStatie;
         String ultimaStatie;
 
-    public Linie(int nrLocuri) {
+    public Linie(int nrLocuri, String prima_statie, String ultima_statie) {
         this.nrLinie = nrLocuri;
         this.primaStatie = primaStatie;
         this.ultimaStatie = ultimaStatie;
