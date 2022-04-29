@@ -5,7 +5,7 @@ public class Linie implements Flyweight{
         String primaStatie;
         String ultimaStatie;
 
-    public Linie(int nrLocuri, String prima_statie, String ultima_statie) {
+    public Linie(int nrLocuri, String primaStatie, String ultimaStatie) {
         this.nrLinie = nrLocuri;
         this.primaStatie = primaStatie;
         this.ultimaStatie = ultimaStatie;
@@ -28,6 +28,7 @@ public class Linie implements Flyweight{
 
     @Override
     public void descriereAutobuzLinie(ModelAutobuz autobuz) {
+
         System.out.println(autobuz.toString()+toString());
     }
 }

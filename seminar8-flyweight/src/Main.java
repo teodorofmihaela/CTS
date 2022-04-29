@@ -17,6 +17,8 @@ public class Main {
         linie1.descriereAutobuzLinie(autobuz1);
         Linie linie2=fabrica.getLinie(134);
         linie2.descriereAutobuzLinie(autobuz2);
+        Linie linie3=fabrica.getLinie(134);
+        linie3.descriereAutobuzLinie(autobuz3);
     }
 
 }
